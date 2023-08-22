@@ -1,0 +1,12 @@
+JS
+evolui conforme a especificação ECMAScript, que é um jeito de escrever e executar o js
+
+Para concatenar string junto com texto usa o `Nomes blablabla ${variavel} ${variavel}`
+cortar string como lista usando o variavel.split
+
+variavel.push, adiciona um elemento no final do array/lista
+variavel.unshift, adiciona no final da lista/array
+variavel.pop, remove o ultimo elemento da lista
+variavel[posição do elemento] = "novo elemento", altera o elemento do array/lista
+variavel.indexOf, identifica a posiçõ do elemento
+.sort, ordena os elementos
