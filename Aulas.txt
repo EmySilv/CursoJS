@@ -31,4 +31,12 @@ conforme ele vai guardando o valor, tb vai somando com a idade do outro e essa
 soma que é guardada no lugar desse zero e exibida no final
 
 JavaScript #05 - Objetos
+Objeto guarda valores dentro de propriedades
+destruction, é basicamente uma simplificação de todas as coisas complicadas e deixando o código mais clean
+const variavel = lista[posição] -> acessa o item daquela posição
+const variavel = lista[posição].description -> acessa a descrição daquela posição
 
+JavaScript #06 - JSON
+conversão para JSON -> JSON.stringify(constante)
+JSON não é mais lista, é string
+conversão de JSON para String -> JSON.parse(constante);
