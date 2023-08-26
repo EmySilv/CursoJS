@@ -40,3 +40,27 @@ JavaScript #06 - JSON
 conversão para JSON -> JSON.stringify(constante)
 JSON não é mais lista, é string
 conversão de JSON para String -> JSON.parse(constante);
+
+JavaScript #07 - Loops
+for é muito complicadinho, foreach é um pouco mais simples, 
+mas for of é mais fácil de se usar
+
+JavaScript #08 - Condicionais
+quando usado == ele checa somente o valor não o tipo, mas quando usamos o === ele checa ambos
+operadores
+&& = representa e, verifica todas as condições
+|| = representa o ou, verifica uma condição
+? = representa o se
+
+JavaScript #09 - Conceito de Truthy & Falsy
+string vazia é sempre false, 0 também é falso
+lista vazia é true, objeto vazio também
+pra checar se tem algo dentro de uma lista usando if
+
+if (list.length > 0){
+    concole.log(list)
+}
+
+inverter o booleano atual com a !, colocando antes da variavel
+
+JavaScript #10 - Funções & Arrow Functions
