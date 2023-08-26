@@ -1,0 +1,66 @@
+JS
+evolui conforme a especificação ECMAScript, que é um jeito de escrever e executar o js
+
+Para concatenar string junto com texto usa o `Nomes blablabla ${variavel} ${variavel}`
+cortar string como lista usando o variavel.split
+
+variavel.push, adiciona um elemento no final do array/lista
+variavel.unshift, adiciona no final da lista/array
+variavel.pop, remove o ultimo elemento da lista
+variavel[posição do elemento] = "novo elemento", altera o elemento do array/lista
+variavel.indexOf, identifica a posiçõ do elemento
+.sort, ordena os elementos
+
+22/08/2023
+
+JavaScript #04 - Map, Filter & Reduce
+
+map executa uma determinada função em cada item da lista e retorna uma nova lista
+filter filta uma lista e retorna uma lista nova baseada no filtro passado
+reduce reduz todos os valores de uma lista pra 1 valor só, como uma soma
+
+const sumOfAges = ages.reduce(function(age, accumulator){
+    return accumulator + age;
+}, 0);
+    ||||
+    \/\/
+
+sistema complicadinho de entender, mas basicamente ele lê valor por 
+valor e vai guardando no lugar desse zero, mas 
+conforme ele vai guardando o valor, tb vai somando com a idade do outro e essa 
+soma que é guardada no lugar desse zero e exibida no final
+
+JavaScript #05 - Objetos
+Objeto guarda valores dentro de propriedades
+destruction, é basicamente uma simplificação de todas as coisas complicadas e deixando o código mais clean
+const variavel = lista[posição] -> acessa o item daquela posição
+const variavel = lista[posição].description -> acessa a descrição daquela posição
+
+JavaScript #06 - JSON
+conversão para JSON -> JSON.stringify(constante)
+JSON não é mais lista, é string
+conversão de JSON para String -> JSON.parse(constante);
+
+JavaScript #07 - Loops
+for é muito complicadinho, foreach é um pouco mais simples, 
+mas for of é mais fácil de se usar
+
+JavaScript #08 - Condicionais
+quando usado == ele checa somente o valor não o tipo, mas quando usamos o === ele checa ambos
+operadores
+&& = representa e, verifica todas as condições
+|| = representa o ou, verifica uma condição
+? = representa o se
+
+JavaScript #09 - Conceito de Truthy & Falsy
+string vazia é sempre false, 0 também é falso
+lista vazia é true, objeto vazio também
+pra checar se tem algo dentro de uma lista usando if
+
+if (list.length > 0){
+    concole.log(list)
+}
+
+inverter o booleano atual com a !, colocando antes da variavel
+
+JavaScript #10 - Funções & Arrow Functions
