@@ -42,7 +42,7 @@ JSON não é mais lista, é string
 conversão de JSON para String -> JSON.parse(constante);
 
 JavaScript #07 - Loops
-for é muito complicadinho, foreach é um pouco mais simples, 
+for(dci-Declaração, Condicional e Incremento) é muito complicadinho, foreach é um pouco mais simples, 
 mas for of é mais fácil de se usar
 
 JavaScript #08 - Condicionais
